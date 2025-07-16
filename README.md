@@ -4,4 +4,4 @@
 </p>
 
 <br><br><br><br>
-[![Refresh(owner only](https://img.shields.io/badge/Refresh-Camo-blue?logo=github)](../../actions/workflows/refresh-camo.yml)
+[![Refresh Camo (OWNER ONLY)](https://img.shields.io/badge/Refresh--Camo-OWNER%20ONLY-blue?logo=github)](../../actions/workflows/refresh-camo.yml)

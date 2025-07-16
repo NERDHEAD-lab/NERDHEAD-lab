@@ -3,7 +3,10 @@ const { execSync } = require('child_process');
 
 (async () => {
   const url = 'https://github.com/NERDHEAD-lab/NERDHEAD-lab/blob/master/README.md';
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
   const page = await browser.newPage();
   await page.goto(url, { waitUntil: 'networkidle0' });
 
